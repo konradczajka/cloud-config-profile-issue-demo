@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: configclient
+  config:
+    import: "configserver:"
+
+demo:
+  name: Alice
